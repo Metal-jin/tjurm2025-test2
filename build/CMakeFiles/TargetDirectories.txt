@@ -1,0 +1,3 @@
+/mnt/c/Users/metal/tjurm2025-test2/build/CMakeFiles/tjurm_tutorial.dir
+/mnt/c/Users/metal/tjurm2025-test2/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/metal/tjurm2025-test2/build/CMakeFiles/rebuild_cache.dir

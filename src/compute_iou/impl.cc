@@ -17,5 +17,17 @@ float compute_iou(const cv::Rect& a, const cv::Rect& b) {
      * 运行测试点，显示通过就行，不通过会告诉你哪一组矩形错了。
     */
     // IMPLEMENT YOUR CODE HERE
-    return 0.f;
-}
+    int inter_x1 = std::max(a.x, b.x);
+    int inter_y1 = std::max(a.y, b.y);
+    int inter_x2 = std::min(a.x + a.width, b.x + b.width);
+    int inter_y2 = std::min(a.y + a.height, b.y + b.height);
+
+    int inter_area = std::max(0, inter_x2 - inter_x1) * std::max(0, inter_y2 - inter_y1);
+
+    int area_a = a.width * a.height;
+    int area_b = b.width * b.height;
+
+    int union_area = area_a + area_b - inter_area;
+
+    return static_cast<float>(inter_area) / union_area;
+    }

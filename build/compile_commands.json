@@ -1,0 +1,102 @@
+[
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/main.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/main.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/main.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/area_ratio/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/area_ratio/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/area_ratio/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/area_ratio/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/area_ratio/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/area_ratio/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/compute_iou/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/compute_iou/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/compute_iou/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/compute_iou/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/compute_iou/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/compute_iou/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/erode/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/erode/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/erode/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/erode/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/erode/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/erode/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/find_contours/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/find_contours/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/find_contours/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/find_contours/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/find_contours/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/find_contours/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/rect/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/rect/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/rect/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/rect/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/rect/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/rect/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/resize/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/resize/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/resize/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/resize/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/resize/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/resize/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/roi_color/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/roi_color/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/roi_color/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/roi_color/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/roi_color/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/roi_color/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/split/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/split/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/split/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/split/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/split/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/split/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/threshold/impl.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/threshold/impl.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/threshold/impl.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/threshold/test.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/threshold/test.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/threshold/test.cc"
+},
+{
+  "directory": "/mnt/c/Users/metal/tjurm2025-test2/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/metal/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4  -w -O3 -g -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/utils.cc.o -c /mnt/c/Users/metal/tjurm2025-test2/src/utils.cc",
+  "file": "/mnt/c/Users/metal/tjurm2025-test2/src/utils.cc"
+}
+]

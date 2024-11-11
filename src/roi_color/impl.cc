@@ -30,6 +30,39 @@ std::unordered_map<int, cv::Rect> roi_color(const cv::Mat& input) {
      */
     std::unordered_map<int, cv::Rect> res;
     // IMPLEMENT YOUR CODE HERE
+    cv::Mat gray;
+    cv::cvtColor(input, gray, cv::COLOR_BGR2GRAY);
+    cv::Mat binary;
+    cv::threshold(gray, binary, 128, 255, cv::THRESH_BINARY_INV | cv::THRESH_OTSU);
+    std::vector<std::vector<cv::Point>> contours;
+    std::vector<cv::Vec4i> hierarchy;
+    cv::findContours(binary, contours, hierarchy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
+    for (const auto& contour : contours) {
+        cv::Rect rect = cv::boundingRect(contour);
+        cv::Mat roi = input(rect);
+        int blue_sum = 0, green_sum = 0, red_sum = 0;
+        for (int i = 0; i < roi.rows; i++) {
+            for (int j = 0; j < roi.cols; j++) {
+                cv::Vec3b pixel = roi.at<cv::Vec3b>(i, j);
+                blue_sum += pixel[0];
+                green_sum += pixel[1];
+                red_sum += pixel[2];
+            }
+        }
+        int total_pixels = roi.rows * roi.cols;
+        int blue_avg = blue_sum / total_pixels;
+        int green_avg = green_sum / total_pixels;
+        int red_avg = red_sum / total_pixels;
+        int color = -1;
+        if (blue_avg > green_avg && blue_avg > red_avg) {
+            color = 0;
+        } else if (green_avg > blue_avg && green_avg > red_avg) {
+            color = 1;
+        } else if (red_avg > blue_avg && red_avg > green_avg) {
+            color = 2;
+        }
+        res[color] = rect;
+    }
 
     return res;
 }

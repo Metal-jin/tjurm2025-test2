@@ -1,4 +1,6 @@
-resize
+
+rect
+
 
 stop
 
@@ -8,5 +10,6 @@ rect
 split
 threshold
 compute_iou
-compute_area_ratio
 roi_color
+resize
+compute_area_ratio
